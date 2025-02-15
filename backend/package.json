@@ -1,0 +1,11 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "nodejs and github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest backend/app.test.js"
+  },
+  "author": "eldad mwangi",
+  "license": "ISC"
+}
