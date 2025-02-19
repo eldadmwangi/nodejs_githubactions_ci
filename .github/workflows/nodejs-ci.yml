@@ -20,6 +20,8 @@ jobs:
       
       - name: Install dependencies
         run: cd backend && npm ci
+
+      # i want to check linting maybe using prettier
       
       - name: Run Jest tests
         run: cd backend && npm test
